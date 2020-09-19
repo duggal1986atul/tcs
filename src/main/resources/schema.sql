@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS Customer;
+  
+CREATE TABLE Customer (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  age INT NOT NULL,
+  registration VARCHAR(250) NOT NULL
+  
+);
